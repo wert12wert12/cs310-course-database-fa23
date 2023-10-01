@@ -22,6 +22,8 @@ public final class DAOFactory {
         
         try {
             conn = DriverManager.getConnection(url, username, password);
+            
+            
         }
         catch (Exception e) {
             conn = null;
